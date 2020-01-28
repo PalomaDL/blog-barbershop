@@ -1,0 +1,22 @@
+.hero-section {
+  background-image: url(/assets/img/post-image.jpg);
+  height: 100vh;
+  background-color: $white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  /* @include mi__centrar; */
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header {
+  a {
+    margin: 15% 0 5% 0;
+    i {
+      color: $white;
+    }
+  }
+}

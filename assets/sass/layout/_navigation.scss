@@ -1,0 +1,20 @@
+.nav--color {
+  background-color: $eerie-black;
+}
+
+nav {
+  a {
+    color: $white!important;
+  }
+  :hover {
+    color: $ruddy-pink!important;
+  }
+  img {
+    width: 78px;
+    height: auto;
+  }
+}
+
+li.active a {
+    color: $spanish-pink!important;
+}

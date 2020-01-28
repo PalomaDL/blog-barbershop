@@ -1,3 +1,28 @@
-// font family
-$playfair: 'Playfair Display', serif;
-$roboto: 'Roboto', sans-serif;
+
+/* Base Typography*/
+body {
+  font-family: $roboto;
+  font-weight: $regular;
+  font-size: $medium;
+  p {
+    font-size: $medium;
+    letter-spacing: 1px;
+    line-height: 45px;
+    color: #222323;
+    font-weight: $light;
+  }
+}
+
+header h1 {
+  @include playfair__bold;
+  font-size: $xx-large;
+  color: $white;
+  filter: drop-shadow(0px 3px 3.5px rgba(0, 0, 0, 0.18));
+  width: 55%;
+}
+
+section h1 {
+  @include playfair__bold;
+  font-size: $x-large;
+  color: $eerie-black;
+}
