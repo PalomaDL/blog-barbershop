@@ -1,16 +1,19 @@
-
 /* Base Typography*/
 body {
   font-family: $roboto;
-  font-weight: $regular;
+  font-weight: $weight-light;
   font-size: $medium;
-  p {
-    font-size: $medium;
-    letter-spacing: 1px;
-    line-height: 45px;
-    color: #222323;
-    font-weight: $light;
-  }
+  color: $raisin-black;
+}
+
+.main__p {
+  letter-spacing: 1px;
+  line-height: 45px;
+}
+
+.main__fecha {
+  font-family: $playfair;
+  font-style: $large;
 }
 
 header h1 {

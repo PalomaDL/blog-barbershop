@@ -6,7 +6,7 @@
 
 @mixin playfair__bold {
   font-family: $playfair;
-  font-weight: $bold;
+  font-weight: $weight-bold;
   font-style: italic;
   text-align: center;
 }
