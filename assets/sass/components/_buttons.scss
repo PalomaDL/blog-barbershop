@@ -3,4 +3,14 @@
     color: $white;
     border-radius: 25px;
     font-size: $medium;
+    &:hover{
+        background-color: $platinum;
+    }
+    &:focus {
+        border: 2px solid color($platinum!important);
+    }
+}
+
+.pagination li a {
+    background-color: $white;
 }
