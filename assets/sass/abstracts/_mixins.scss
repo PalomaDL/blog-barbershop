@@ -10,3 +10,9 @@
   font-style: italic;
   text-align: center;
 }
+
+@mixin page-width {
+  align-items: center;
+  width: 85vw;
+  margin: 10vh auto;
+}

@@ -3,3 +3,32 @@ body {
   height: 100vh;
   background-color: $white;
 }
+
+main {
+  @include page-width;
+}
+
+.section__row {
+  @include page-width;
+}
+
+.col {
+  max-width: 100%;
+}
+
+
+.autor {
+  img {
+    height: 140px;
+    width: auto;
+  }
+}
+
+@media (min-width: 769px) {
+  .autor {
+    img {
+      height: 170px;
+      width: auto;
+    }
+  }
+}

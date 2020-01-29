@@ -1,4 +1,6 @@
-button {
-    background-color: darkseagreen;
-    color: darkslateblue;
+.mi__button {
+    background-color: $nickel;
+    color: $white;
+    border-radius: 25px;
+    font-size: $medium;
 }
