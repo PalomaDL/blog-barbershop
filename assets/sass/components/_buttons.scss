@@ -1,16 +1,20 @@
 .mi__button {
-    background-color: $nickel;
-    color: $white;
-    border-radius: 25px;
-    font-size: $medium;
-    &:hover{
-        background-color: $platinum;
-    }
-    &:focus {
-        border: 2px solid color($platinum!important);
-    }
+  background-color: $nickel;
+  color: $white;
+  border-radius: 25px;
+  font-size: $medium;
+  &:hover {
+    background-color: $platinum;
+  }
+  &:focus {
+    border: 2px solid color($platinum!important);
+  }
 }
 
-.pagination li a {
-    background-color: $white;
+.pagination__btn--color {
+  border: 1px solid $nickel;
+}
+
+.btn-round {
+  border-radius: 17px;
 }

@@ -16,19 +16,31 @@ main {
   max-width: 100%;
 }
 
-
 .autor {
+  a {
+    color: $spanish-pink;
+    &:hover {
+      color: $eerie-black;
+    }
+    &:active {
+      color: $platinum;
+    }
+  }
   img {
     height: 140px;
-    width: auto;
+    width: 140px;
   }
+}
+
+.pagination {
+  background-color: $platinum;
 }
 
 @media (min-width: 769px) {
   .autor {
     img {
       height: 170px;
-      width: auto;
+      width: 170px;
     }
   }
 }

@@ -9677,15 +9677,28 @@ main {
   max-width: 100%;
 }
 
+.autor a {
+  color: #ECBCBA;
+}
+.autor a:hover {
+  color: #121619;
+}
+.autor a:active {
+  color: #E8E8E8;
+}
 .autor img {
   height: 140px;
-  width: auto;
+  width: 140px;
+}
+
+.pagination {
+  background-color: #E8E8E8;
 }
 
 @media (min-width: 769px) {
   .autor img {
     height: 170px;
-    width: auto;
+    width: 170px;
   }
 }
 body {
@@ -9797,8 +9810,16 @@ footer img {
   border: 2px solid;
 }
 
-.pagination li a {
-  background-color: #FFF;
+.pagination__btn--color {
+  border: 1px solid #6C6E70;
+}
+
+.active {
+  border: 1px solid #6C6E70;
+}
+
+.btn-round {
+  border-radius: 17px;
 }
 
 /*# sourceMappingURL=style.css.map */

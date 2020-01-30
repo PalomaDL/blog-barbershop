@@ -83,9 +83,10 @@
         </div>
     </main>
 
-    <section class="autor text-left border">
+    <section class="autor text-center border">
         <div class="row section__row">
-            <div class="col-12 col-md-3 text-right"><img src="assets/img/naomi-thai.png" alt="Naomi Thai" class="rounded-circle">
+            <div class="col-12 col-md-3 text-md-right"><img src="assets/img/naomi-thai.png" alt="Naomi Thai"
+                    class="rounded-circle">
             </div>
             <div class="col-12 col-md-2">
                 <h1>Naomi Thai</h1>
@@ -100,12 +101,15 @@
         </div>
     </section>
 
-    <section>
-        <div class="btn-group pagination" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-secondary">Left</button>
-            <button type="button" class="btn btn-secondary">Middle</button>
-            <button type="button" class="btn btn-secondary">Right</button>
-          </div>
+    <section class="pagination">
+        <div class="btn-group pagination__btn  mx-auto my-5" role="group" aria-label="Pagination">
+            <button type="button" class="btn pagination__btn--color btn-light btn-round">Anterior</button>
+            <button type="button" class="btn pagination__btn--color btn-light">1</button>
+            <button type="button" class="btn pagination__btn--color btn-light active">2<span
+                    class="sr-only">(current)</span></button>
+            <button type="button" class="btn pagination__btn--color btn-light">3</button>
+            <button type="button" class="btn pagination__btn--color btn-light btn-round">Siguiente</button>
+        </div>
     </section>
 
     <footer><img src="assets/img/logo.png" alt="logo bigote"></footer>
